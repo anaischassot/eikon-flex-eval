@@ -58,7 +58,15 @@
 }
 
 .exercice-6 .element-yellow {
-  flex-grow: 3;
+  flex-grow: 0.5;
+}
+
+.exercice-6 .element-grey {
+  flex-grow: 0.5;
+}
+
+.exercice-6 .element-green {
+  flex-grow: 1;
 }
 /* 7. exercice-7 */
 .exercice-7 .container-set {
