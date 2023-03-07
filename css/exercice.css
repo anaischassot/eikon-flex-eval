@@ -8,13 +8,22 @@
 /* 2. exercice-2 */
 .exercice-2 .container-big {
   display: flex;
-  flex-flow: column-reverse;
+  flex-flow: column-reverse nowrap;
   justify-content: center;
   align-items: center;
 }
-
 /* 3. exercice-3 */
+.exercice-3 .container-big {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.exercice-3 .element-blue {
+  order: -1;
+  align-self: flex-start;
+}
 /* 4. exercice-4 */
 
 /* 5. exercice-5 */
