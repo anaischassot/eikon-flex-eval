@@ -40,7 +40,12 @@
   order: 1;
 }
 /* 5. exercice-5 */
-
+.exercice-5 .container-small {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
 /* 6. exercice-6 */
 
 /* 7. exercice-7 */
