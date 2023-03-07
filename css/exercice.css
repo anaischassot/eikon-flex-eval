@@ -47,7 +47,19 @@
   align-content: center;
 }
 /* 6. exercice-6 */
+.exercice-6 .container-small {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  align-content: space-between;
+}
 
+.exercice-6 .element-pink {
+  flex-grow: 6;
+}
+
+.exercice-6 .element-yellow {
+  flex-grow: 3;
+}
 /* 7. exercice-7 */
 
 /* 8. exercice-8 */
