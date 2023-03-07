@@ -25,7 +25,20 @@
   align-self: flex-start;
 }
 /* 4. exercice-4 */
+.exercice-4 .container-big {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.exercice-4 .element-pink {
+  align-self: flex-start;
+}
+
+.exercice-4 .element-blue {
+  order: 1;
+}
 /* 5. exercice-5 */
 
 /* 6. exercice-6 */
