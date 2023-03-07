@@ -1,13 +1,17 @@
-.exercice {
-  display: flex;
-}
 /* 1. exercice-1 */
 .exercice-1 .container-big {
+  display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
 }
 /* 2. exercice-2 */
+.exercice-2 .container-big {
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
 
 /* 3. exercice-3 */
 
