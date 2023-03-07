@@ -95,4 +95,8 @@
   box-sizing: border-box;
 }
 /* 10. exercice-10 */
-
+.exercice-10 .container-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
